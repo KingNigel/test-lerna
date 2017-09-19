@@ -1,0 +1,21 @@
+{
+  "name": "test-foo",
+  "version": "0.0.2",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "KingNigel",
+  "bin": {},
+  "scripts": {
+    "test": "nyc ava",
+    "report": "nyc report --reporter=html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KingNigel/test-lerna.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KingNigel/test-lerna/issues"
+  },
+  "license": "MIT"
+}
