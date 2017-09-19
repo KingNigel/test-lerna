@@ -1,0 +1,27 @@
+{
+  "name": "test-lerna",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "author": "KingNigel",
+  "bin": {},
+  "scripts": {
+    "test": "nyc ava",
+    "report": "nyc report --reporter=html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KingNigel/test-lerna.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KingNigel/test-lerna/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^2.1.2"
+  },
+  "dependencies": {
+    "test-lerna/test-bar": "next",
+    "test-lerna/test-foo": "next"
+  }
+}
