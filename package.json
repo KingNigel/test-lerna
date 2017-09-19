@@ -21,7 +21,7 @@
     "lerna": "^2.1.2"
   },
   "dependencies": {
-    "test-lerna/test-bar": "next",
-    "test-lerna/test-foo": "next"
+    "test-lerna/test-lerna-bar": "next",
+    "test-lerna/test-lerna-foo": "next"
   }
 }
