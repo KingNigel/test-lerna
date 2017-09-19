@@ -1,5 +1,5 @@
 {
-  "name": "test-lerna-foo",
+  "name": "test-lerna-all/test-lerna-foo",
   "version": "0.0.4",
   "description": "",
   "main": "index.js",
